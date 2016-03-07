@@ -9,8 +9,8 @@ int main(){
 	
 	cin >> n >> m >> a;
 	
-	int w = n%a == 0 ? n/a : n/a+1;
-	int h = m%a == 0 ? m/a : m/a+1;
+	int w = n%a == 0 ? n/a : n/a+1;  // or int w = (m+a-1)/a;
+	int h = m%a == 0 ? m/a : m/a+1;  // or int h = (n+a-1)/a;
 	
 	cout << (long long)w*h << endl; 
 	
